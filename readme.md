@@ -8,8 +8,9 @@
 
 - パッケージを追加したい
   - プリアンブルに\usepackage{hogehoge}を追加しよう
-- 章を追加したい
-  - \chaper{追加したい章の名前}と\input{contents/hogehoge.tex}を追加しよう
+- ~~章を追加したい~~
+  - ~~\chaper{追加したい章の名前}と\input{contents/hogehoge.tex}を追加しよう~~
+  - chapterの記述は各inputファイルに書くようにしましょう．（main.texでの情報編集を減らしたい）
 
 の時ぐらいだよ．このテンプレではここにchapterを書いてるけど，各ファイルに書いてもいいよ．
 大事な命令がたくさん書いてあるので，今まで使ってたmain.texで上書きとかしないでね．
