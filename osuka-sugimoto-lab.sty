@@ -9,8 +9,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\usepackage{subcaption} 
+%%%%%caption系の設定
+\usepackage{caption}
 
+%\usepackage{subcaption}
+\usepackage[subrefformat=parens]{subcaption}
+\captionsetup{compatibility=false}
+\captionsetup{format=hang,font=bf,width=\columnwidth}
+\captionsetup[table]{position=top}
+\captionsetup[subtable]{textfont=sf}
+\captionsetup[subfigure]{labelformat=simple}
+\renewcommand{\thesubfigure}{(\alph{subfigure})}
 
 \newcommand{\labfig}[1]{\label{fig:#1}}
 \newcommand{\labtab}[1]{\label{tab:#1}}
