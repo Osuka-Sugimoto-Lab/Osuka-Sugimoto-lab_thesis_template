@@ -15,9 +15,10 @@
 %\usepackage{subcaption}
 \usepackage[subrefformat=parens]{subcaption}
 \captionsetup{compatibility=false}
-\captionsetup{format=hang,font=bf,width=\columnwidth}
+%\captionsetup{format=hang,font=bf,width=\columnwidth} %サブキャプションを太文字にしたいときはこっち
+\captionsetup{format=hang,font=rm,width=\columnwidth} %サブキャプションを普通にしたいときはこっち
 \captionsetup[table]{position=top}
-\captionsetup[subtable]{textfont=sf}
+%\captionsetup[subtable]{textfont=sf}
 \captionsetup[subfigure]{labelformat=simple}
 \renewcommand{\thesubfigure}{(\alph{subfigure})}
 
