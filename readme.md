@@ -52,8 +52,10 @@ bibtexちゃんと使おうね．文献の書き方はちゃんと統一しよ�
 
 3名以上の著者の場合 et al.で省略できるbstを用意しました．
 osukalab_bibstyle.bstを導入の上
+```
 \bibliographystyle{osukalab_bibstyle}
 \bibliography{myref}
+```
 とすれば適用できます．
 
 省略したくない人は
