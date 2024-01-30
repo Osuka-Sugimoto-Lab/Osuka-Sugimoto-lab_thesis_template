@@ -50,6 +50,16 @@ A4，文字サイズ12ポイント，両面印刷，章の始まりは右ペー�
 
 bibtexちゃんと使おうね．文献の書き方はちゃんと統一しようね．ここが汚いとだらしがない論文になるよ．
 
+3名以上の著者の場合 et al.で省略できるbstを用意しました．
+osukalab_bibstyle.bstを導入の上
+\bibliographystyle{osukalab_bibstyle}
+\bibliography{myref}
+とすれば適用できます．
+
+省略したくない人は
+\bibliographystyle{junsurt}
+でよいとおもいます
+
 # よくある質問（Q&A)
 
 - 目次のページが-iii-から始まってるけど-i-じゃねーの？
@@ -61,3 +71,8 @@ main.texに
 
 
 © 2021 by Keisuke Naniwa
+
+ライセンスは以下に準じます
+Apache license 2.0
+
+https://fossa.com/blog/open-source-licenses-101-apache-license-2-0/
